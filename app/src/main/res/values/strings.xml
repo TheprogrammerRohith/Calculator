@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Calculator</string>
+    <string name="title">CGPA till previous sem</string>
+    <string name="title2">Credits completed till previous sem</string>
+    <string name="title3">GPA in current sem</string>
+    <string name="title4">Credits completed in current sem</string>
+</resources>

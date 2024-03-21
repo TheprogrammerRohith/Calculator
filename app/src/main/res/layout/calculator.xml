@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:visibility="visible"
+    tools:context=".Calculator">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:background="@drawable/circular_button"
+        android:layout_marginBottom="80sp"
+        android:onClick="onbtnclick"
+        android:text="1"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintStart_toStartOf="@+id/button4"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:background="@drawable/circular_button"
+        android:layout_marginBottom="80sp"
+        android:onClick="onbtnclick2"
+        android:text="2"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button5"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:background="@drawable/circular_button"
+        android:layout_marginBottom="80sp"
+        android:onClick="onbtnclick3"
+        android:text="3"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button6"
+        app:layout_constraintStart_toStartOf="@+id/button6"
+        app:layout_constraintTop_toBottomOf="@+id/button6" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginBottom="160sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick4"
+        android:text="4"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button7"
+        app:layout_constraintStart_toStartOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginBottom="160sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick5"
+        android:text="5"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button8"
+        app:layout_constraintStart_toStartOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/button8" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginBottom="160sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick6"
+        android:text="6"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button9"
+        app:layout_constraintStart_toStartOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:background="@drawable/circular_button"
+        android:layout_marginTop="180sp"
+        android:onClick="onbtnclick7"
+        android:text="7"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button17"
+        app:layout_constraintStart_toStartOf="@+id/button17"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="180sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick8"
+        android:text="8"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button32"
+        app:layout_constraintStart_toStartOf="@+id/button32"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="180sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick9"
+        android:text="9"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button18"
+        app:layout_constraintStart_toStartOf="@+id/button18"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick10"
+        android:text="0"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="500sp"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginEnd="270sp"
+        android:layout_marginBottom="160sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick20"
+        android:text="Clr"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:textAlignment="center"
+        android:background="@drawable/circular_button"
+        android:layout_marginStart="260sp"
+        android:layout_marginBottom="160sp"
+        android:onClick="onbtnclick12"
+        android:text="Del"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginBottom="160sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick14"
+        android:text="+"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button16"
+        app:layout_constraintStart_toStartOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/button16" />
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick13"
+        android:text="="
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button21"
+        app:layout_constraintStart_toStartOf="@+id/button21"
+        app:layout_constraintTop_toBottomOf="@+id/button21" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:background="@drawable/circular_button"
+        android:layout_marginTop="180sp"
+        android:onClick="onbtnclick16"
+        android:text="*"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button13"
+        app:layout_constraintStart_toStartOf="@+id/button13"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:textAlignment="center"
+        android:background="@drawable/circular_button"
+        android:layout_marginTop="35sp"
+        android:layout_marginBottom="30sp"
+        android:onClick="onbtnclick17"
+        android:text="/"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button11"
+        app:layout_constraintStart_toStartOf="@+id/button11"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick18"
+        android:text="("
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button12"
+        app:layout_constraintStart_toStartOf="@+id/button12"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:textAlignment="center"
+        android:background="@drawable/circular_button"
+        android:layout_marginTop="35sp"
+        android:layout_marginBottom="30sp"
+        android:onClick="onbtnclick19"
+        android:text=")"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button31"
+        app:layout_constraintStart_toStartOf="@+id/button31"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick22"
+        android:text="^"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button3"
+        app:layout_constraintStart_toStartOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
+
+    <Button
+        android:id="@+id/button20"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="5sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick21"
+        android:text="."
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:background="@drawable/circular_button"
+        android:layout_marginBottom="80sp"
+        android:onClick="onbtnclick15"
+        android:text="-"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button14"
+        app:layout_constraintStart_toStartOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250sp"
+        android:layout_marginBottom="350sp"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginStart="80sp"
+        android:layout_marginBottom="160sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick23"
+        android:text="Ans"
+        android:textAlignment="center"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginTop="35sp"
+        android:layout_marginBottom="30sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick24"
+        android:text="NC"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button55"
+        app:layout_constraintStart_toStartOf="@+id/button55"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:layout_marginEnd="100sp"
+        android:layout_marginBottom="160sp"
+        android:background="@drawable/circular_button"
+        android:onClick="onbtnclick27"
+        android:text="->"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
